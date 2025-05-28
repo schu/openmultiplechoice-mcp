@@ -1,4 +1,4 @@
-# omc-mcp
+# openmultiplechoice-mcp
 
 Status: experimental, work in progress
 
@@ -17,14 +17,16 @@ Example `~/Library/Application\ Support/Claude/claude_desktop_config.json`:
             "command": "uv",
             "args": [
                 "--directory",
-                "</ABSOLUTE/PATH/TO/omc-mcp>",
+                "</ABSOLUTE/PATH/TO/openmultiplechoice-mcp>",
                 "run",
                 "omc-mcp.py"
             ],
             "env": {
-                "OMC_API_TOKEN": "<YOUR_API_TOKEN>"
+                "OMC_API_TOKEN": "<YOUR_OMC_API_TOKEN>"
             }
         }
     }
 }
 ```
+
+Restart Claude Desktop for changes to take effect.
